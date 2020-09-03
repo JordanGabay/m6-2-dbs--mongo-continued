@@ -88,6 +88,6 @@ router.get("/api/seat-availability", getSeats);
 
 let lastBookingAttemptSucceeded = false;
 
-router.put("/api/book-seat", seatPurchase)
+router.post("/api/book-seat", seatPurchase)
 
 module.exports = router;
